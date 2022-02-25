@@ -8,3 +8,7 @@ h1{color:grey;font-family:verdana}
     border-radius: 25px;
     text-align: center;
 }
+.invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
