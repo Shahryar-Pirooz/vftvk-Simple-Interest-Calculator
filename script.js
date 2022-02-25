@@ -6,7 +6,7 @@ function compute()
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
     //Add validation for "Principal" input box. If the user enters zero or negative values, show an alert "Enter a positive number"
-    if (principal == "0" || principal=="") {
+    if (principal <= 0 || principal=="") {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
         document.getElementById("principal").classList.add("invalid");
